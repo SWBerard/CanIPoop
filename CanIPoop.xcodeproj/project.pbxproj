@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0495F35CAFE39597270389DC /* Pods_CanIPoopUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7AF2FE4963169CD96F11DFC /* Pods_CanIPoopUITests.framework */; };
+		2A0362C8A71FE04D0788E029 /* Pods_CanIPoopTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C695B0637B1CB7313C1C2F11 /* Pods_CanIPoopTests.framework */; };
 		4889C6D31F2AC9EF0096439B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4889C6D21F2AC9EF0096439B /* AppDelegate.swift */; };
 		4889C6D51F2AC9EF0096439B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4889C6D41F2AC9EF0096439B /* ViewController.swift */; };
 		4889C6D81F2AC9EF0096439B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4889C6D61F2AC9EF0096439B /* Main.storyboard */; };
@@ -14,6 +16,8 @@
 		4889C6DD1F2AC9EF0096439B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4889C6DB1F2AC9EF0096439B /* LaunchScreen.storyboard */; };
 		4889C6E81F2AC9EF0096439B /* CanIPoopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4889C6E71F2AC9EF0096439B /* CanIPoopTests.swift */; };
 		4889C6F31F2AC9EF0096439B /* CanIPoopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4889C6F21F2AC9EF0096439B /* CanIPoopUITests.swift */; };
+		4889C7011F2ACA9A0096439B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4889C7001F2ACA9A0096439B /* GoogleService-Info.plist */; };
+		D05FE89CE724BBA5F7B2C0CF /* Pods_CanIPoop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DE87CBEFEFB028F7A21DA28 /* Pods_CanIPoop.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		098D9D3FEC97E5176A735D3A /* Pods-CanIPoopTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CanIPoopTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CanIPoopTests/Pods-CanIPoopTests.release.xcconfig"; sourceTree = "<group>"; };
 		4889C6CF1F2AC9EF0096439B /* CanIPoop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CanIPoop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4889C6D21F2AC9EF0096439B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4889C6D41F2AC9EF0096439B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +52,15 @@
 		4889C6EE1F2AC9EF0096439B /* CanIPoopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CanIPoopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4889C6F21F2AC9EF0096439B /* CanIPoopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanIPoopUITests.swift; sourceTree = "<group>"; };
 		4889C6F41F2AC9EF0096439B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4889C7001F2ACA9A0096439B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		54D00CD442E11229AA47FC89 /* Pods-CanIPoopUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CanIPoopUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CanIPoopUITests/Pods-CanIPoopUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		55CDC7C9151CF537F5FE1B05 /* Pods-CanIPoop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CanIPoop.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CanIPoop/Pods-CanIPoop.debug.xcconfig"; sourceTree = "<group>"; };
+		8DE87CBEFEFB028F7A21DA28 /* Pods_CanIPoop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CanIPoop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A28D2D0AD4AD93A4CA803C97 /* Pods-CanIPoop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CanIPoop.release.xcconfig"; path = "Pods/Target Support Files/Pods-CanIPoop/Pods-CanIPoop.release.xcconfig"; sourceTree = "<group>"; };
+		C695B0637B1CB7313C1C2F11 /* Pods_CanIPoopTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CanIPoopTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7AF2FE4963169CD96F11DFC /* Pods_CanIPoopUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CanIPoopUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8E8244690D39EB95A358DA1 /* Pods-CanIPoopTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CanIPoopTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CanIPoopTests/Pods-CanIPoopTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DEFD6C8465A604EB88BD5B92 /* Pods-CanIPoopUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CanIPoopUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CanIPoopUITests/Pods-CanIPoopUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D05FE89CE724BBA5F7B2C0CF /* Pods_CanIPoop.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A0362C8A71FE04D0788E029 /* Pods_CanIPoopTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0495F35CAFE39597270389DC /* Pods_CanIPoopUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +98,8 @@
 				4889C6E61F2AC9EF0096439B /* CanIPoopTests */,
 				4889C6F11F2AC9EF0096439B /* CanIPoopUITests */,
 				4889C6D01F2AC9EF0096439B /* Products */,
+				C7437B59019BE002B9749295 /* Pods */,
+				AC77C38CB0CBB1FF4DD64651 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +122,7 @@
 				4889C6D91F2AC9EF0096439B /* Assets.xcassets */,
 				4889C6DB1F2AC9EF0096439B /* LaunchScreen.storyboard */,
 				4889C6DE1F2AC9EF0096439B /* Info.plist */,
+				4889C7001F2ACA9A0096439B /* GoogleService-Info.plist */,
 			);
 			path = CanIPoop;
 			sourceTree = "<group>";
@@ -125,6 +145,29 @@
 			path = CanIPoopUITests;
 			sourceTree = "<group>";
 		};
+		AC77C38CB0CBB1FF4DD64651 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8DE87CBEFEFB028F7A21DA28 /* Pods_CanIPoop.framework */,
+				C695B0637B1CB7313C1C2F11 /* Pods_CanIPoopTests.framework */,
+				C7AF2FE4963169CD96F11DFC /* Pods_CanIPoopUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C7437B59019BE002B9749295 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				55CDC7C9151CF537F5FE1B05 /* Pods-CanIPoop.debug.xcconfig */,
+				A28D2D0AD4AD93A4CA803C97 /* Pods-CanIPoop.release.xcconfig */,
+				D8E8244690D39EB95A358DA1 /* Pods-CanIPoopTests.debug.xcconfig */,
+				098D9D3FEC97E5176A735D3A /* Pods-CanIPoopTests.release.xcconfig */,
+				54D00CD442E11229AA47FC89 /* Pods-CanIPoopUITests.debug.xcconfig */,
+				DEFD6C8465A604EB88BD5B92 /* Pods-CanIPoopUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4889C6F71F2AC9EF0096439B /* Build configuration list for PBXNativeTarget "CanIPoop" */;
 			buildPhases = (
+				85CA339CABCF624D5525B689 /* [CP] Check Pods Manifest.lock */,
 				4889C6CB1F2AC9EF0096439B /* Sources */,
 				4889C6CC1F2AC9EF0096439B /* Frameworks */,
 				4889C6CD1F2AC9EF0096439B /* Resources */,
+				628751CE24D0BFFF0BB50D5D /* [CP] Embed Pods Frameworks */,
+				1CAB8010DD136243ECFDE8DD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4889C6FA1F2AC9EF0096439B /* Build configuration list for PBXNativeTarget "CanIPoopTests" */;
 			buildPhases = (
+				73278327DC48841A345DDF80 /* [CP] Check Pods Manifest.lock */,
 				4889C6DF1F2AC9EF0096439B /* Sources */,
 				4889C6E01F2AC9EF0096439B /* Frameworks */,
 				4889C6E11F2AC9EF0096439B /* Resources */,
+				9395C77A775B7339A7805032 /* [CP] Embed Pods Frameworks */,
+				459AE34382BED418971636E1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +216,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4889C6FD1F2AC9EF0096439B /* Build configuration list for PBXNativeTarget "CanIPoopUITests" */;
 			buildPhases = (
+				41FDB027336AFA5835A20B7C /* [CP] Check Pods Manifest.lock */,
 				4889C6EA1F2AC9EF0096439B /* Sources */,
 				4889C6EB1F2AC9EF0096439B /* Frameworks */,
 				4889C6EC1F2AC9EF0096439B /* Resources */,
+				47ABD20801EBFCA7D2FE5731 /* [CP] Embed Pods Frameworks */,
+				2B1EC0EF5DF78B474B4A42DA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -236,6 +288,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4889C6DD1F2AC9EF0096439B /* LaunchScreen.storyboard in Resources */,
+				4889C7011F2ACA9A0096439B /* GoogleService-Info.plist in Resources */,
 				4889C6DA1F2AC9EF0096439B /* Assets.xcassets in Resources */,
 				4889C6D81F2AC9EF0096439B /* Main.storyboard in Resources */,
 			);
@@ -256,6 +309,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1CAB8010DD136243ECFDE8DD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CanIPoop/Pods-CanIPoop-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2B1EC0EF5DF78B474B4A42DA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CanIPoopUITests/Pods-CanIPoopUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		41FDB027336AFA5835A20B7C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		459AE34382BED418971636E1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CanIPoopTests/Pods-CanIPoopTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		47ABD20801EBFCA7D2FE5731 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CanIPoopUITests/Pods-CanIPoopUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		628751CE24D0BFFF0BB50D5D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CanIPoop/Pods-CanIPoop-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		73278327DC48841A345DDF80 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		85CA339CABCF624D5525B689 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9395C77A775B7339A7805032 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CanIPoopTests/Pods-CanIPoopTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4889C6CB1F2AC9EF0096439B /* Sources */ = {
@@ -415,6 +606,7 @@
 		};
 		4889C6F81F2AC9EF0096439B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55CDC7C9151CF537F5FE1B05 /* Pods-CanIPoop.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2UE8KDTEZH;
@@ -428,6 +620,7 @@
 		};
 		4889C6F91F2AC9EF0096439B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A28D2D0AD4AD93A4CA803C97 /* Pods-CanIPoop.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2UE8KDTEZH;
@@ -441,6 +634,7 @@
 		};
 		4889C6FB1F2AC9EF0096439B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8E8244690D39EB95A358DA1 /* Pods-CanIPoopTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -456,6 +650,7 @@
 		};
 		4889C6FC1F2AC9EF0096439B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 098D9D3FEC97E5176A735D3A /* Pods-CanIPoopTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +666,7 @@
 		};
 		4889C6FE1F2AC9EF0096439B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54D00CD442E11229AA47FC89 /* Pods-CanIPoopUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 2UE8KDTEZH;
@@ -485,6 +681,7 @@
 		};
 		4889C6FF1F2AC9EF0096439B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEFD6C8465A604EB88BD5B92 /* Pods-CanIPoopUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 2UE8KDTEZH;
@@ -516,6 +713,7 @@
 				4889C6F91F2AC9EF0096439B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4889C6FA1F2AC9EF0096439B /* Build configuration list for PBXNativeTarget "CanIPoopTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +722,7 @@
 				4889C6FC1F2AC9EF0096439B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4889C6FD1F2AC9EF0096439B /* Build configuration list for PBXNativeTarget "CanIPoopUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +731,7 @@
 				4889C6FF1F2AC9EF0096439B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
