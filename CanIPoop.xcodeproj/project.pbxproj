@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4889C6D31F2AC9EF0096439B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4889C6D21F2AC9EF0096439B /* AppDelegate.swift */; };
+		4889C6D51F2AC9EF0096439B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4889C6D41F2AC9EF0096439B /* ViewController.swift */; };
+		4889C6D81F2AC9EF0096439B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4889C6D61F2AC9EF0096439B /* Main.storyboard */; };
+		4889C6DA1F2AC9EF0096439B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4889C6D91F2AC9EF0096439B /* Assets.xcassets */; };
+		4889C6DD1F2AC9EF0096439B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4889C6DB1F2AC9EF0096439B /* LaunchScreen.storyboard */; };
+		4889C6E81F2AC9EF0096439B /* CanIPoopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4889C6E71F2AC9EF0096439B /* CanIPoopTests.swift */; };
+		4889C6F31F2AC9EF0096439B /* CanIPoopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4889C6F21F2AC9EF0096439B /* CanIPoopUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4889C6E41F2AC9EF0096439B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4889C6C71F2AC9EF0096439B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4889C6CE1F2AC9EF0096439B;
+			remoteInfo = CanIPoop;
+		};
+		4889C6EF1F2AC9EF0096439B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4889C6C71F2AC9EF0096439B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4889C6CE1F2AC9EF0096439B;
+			remoteInfo = CanIPoop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4889C6CF1F2AC9EF0096439B /* CanIPoop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CanIPoop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4889C6D21F2AC9EF0096439B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4889C6D41F2AC9EF0096439B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4889C6D71F2AC9EF0096439B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4889C6D91F2AC9EF0096439B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4889C6DC1F2AC9EF0096439B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4889C6DE1F2AC9EF0096439B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4889C6E31F2AC9EF0096439B /* CanIPoopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CanIPoopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4889C6E71F2AC9EF0096439B /* CanIPoopTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanIPoopTests.swift; sourceTree = "<group>"; };
+		4889C6E91F2AC9EF0096439B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4889C6EE1F2AC9EF0096439B /* CanIPoopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CanIPoopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4889C6F21F2AC9EF0096439B /* CanIPoopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanIPoopUITests.swift; sourceTree = "<group>"; };
+		4889C6F41F2AC9EF0096439B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4889C6CC1F2AC9EF0096439B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4889C6E01F2AC9EF0096439B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4889C6EB1F2AC9EF0096439B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4889C6C61F2AC9EF0096439B = {
+			isa = PBXGroup;
+			children = (
+				4889C6D11F2AC9EF0096439B /* CanIPoop */,
+				4889C6E61F2AC9EF0096439B /* CanIPoopTests */,
+				4889C6F11F2AC9EF0096439B /* CanIPoopUITests */,
+				4889C6D01F2AC9EF0096439B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4889C6D01F2AC9EF0096439B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4889C6CF1F2AC9EF0096439B /* CanIPoop.app */,
+				4889C6E31F2AC9EF0096439B /* CanIPoopTests.xctest */,
+				4889C6EE1F2AC9EF0096439B /* CanIPoopUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4889C6D11F2AC9EF0096439B /* CanIPoop */ = {
+			isa = PBXGroup;
+			children = (
+				4889C6D21F2AC9EF0096439B /* AppDelegate.swift */,
+				4889C6D41F2AC9EF0096439B /* ViewController.swift */,
+				4889C6D61F2AC9EF0096439B /* Main.storyboard */,
+				4889C6D91F2AC9EF0096439B /* Assets.xcassets */,
+				4889C6DB1F2AC9EF0096439B /* LaunchScreen.storyboard */,
+				4889C6DE1F2AC9EF0096439B /* Info.plist */,
+			);
+			path = CanIPoop;
+			sourceTree = "<group>";
+		};
+		4889C6E61F2AC9EF0096439B /* CanIPoopTests */ = {
+			isa = PBXGroup;
+			children = (
+				4889C6E71F2AC9EF0096439B /* CanIPoopTests.swift */,
+				4889C6E91F2AC9EF0096439B /* Info.plist */,
+			);
+			path = CanIPoopTests;
+			sourceTree = "<group>";
+		};
+		4889C6F11F2AC9EF0096439B /* CanIPoopUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4889C6F21F2AC9EF0096439B /* CanIPoopUITests.swift */,
+				4889C6F41F2AC9EF0096439B /* Info.plist */,
+			);
+			path = CanIPoopUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4889C6CE1F2AC9EF0096439B /* CanIPoop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4889C6F71F2AC9EF0096439B /* Build configuration list for PBXNativeTarget "CanIPoop" */;
+			buildPhases = (
+				4889C6CB1F2AC9EF0096439B /* Sources */,
+				4889C6CC1F2AC9EF0096439B /* Frameworks */,
+				4889C6CD1F2AC9EF0096439B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CanIPoop;
+			productName = CanIPoop;
+			productReference = 4889C6CF1F2AC9EF0096439B /* CanIPoop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4889C6E21F2AC9EF0096439B /* CanIPoopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4889C6FA1F2AC9EF0096439B /* Build configuration list for PBXNativeTarget "CanIPoopTests" */;
+			buildPhases = (
+				4889C6DF1F2AC9EF0096439B /* Sources */,
+				4889C6E01F2AC9EF0096439B /* Frameworks */,
+				4889C6E11F2AC9EF0096439B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4889C6E51F2AC9EF0096439B /* PBXTargetDependency */,
+			);
+			name = CanIPoopTests;
+			productName = CanIPoopTests;
+			productReference = 4889C6E31F2AC9EF0096439B /* CanIPoopTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4889C6ED1F2AC9EF0096439B /* CanIPoopUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4889C6FD1F2AC9EF0096439B /* Build configuration list for PBXNativeTarget "CanIPoopUITests" */;
+			buildPhases = (
+				4889C6EA1F2AC9EF0096439B /* Sources */,
+				4889C6EB1F2AC9EF0096439B /* Frameworks */,
+				4889C6EC1F2AC9EF0096439B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4889C6F01F2AC9EF0096439B /* PBXTargetDependency */,
+			);
+			name = CanIPoopUITests;
+			productName = CanIPoopUITests;
+			productReference = 4889C6EE1F2AC9EF0096439B /* CanIPoopUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4889C6C71F2AC9EF0096439B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Event Farm";
+				TargetAttributes = {
+					4889C6CE1F2AC9EF0096439B = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 2UE8KDTEZH;
+						ProvisioningStyle = Automatic;
+					};
+					4889C6E21F2AC9EF0096439B = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 2UE8KDTEZH;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4889C6CE1F2AC9EF0096439B;
+					};
+					4889C6ED1F2AC9EF0096439B = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 2UE8KDTEZH;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4889C6CE1F2AC9EF0096439B;
+					};
+				};
+			};
+			buildConfigurationList = 4889C6CA1F2AC9EF0096439B /* Build configuration list for PBXProject "CanIPoop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4889C6C61F2AC9EF0096439B;
+			productRefGroup = 4889C6D01F2AC9EF0096439B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4889C6CE1F2AC9EF0096439B /* CanIPoop */,
+				4889C6E21F2AC9EF0096439B /* CanIPoopTests */,
+				4889C6ED1F2AC9EF0096439B /* CanIPoopUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4889C6CD1F2AC9EF0096439B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4889C6DD1F2AC9EF0096439B /* LaunchScreen.storyboard in Resources */,
+				4889C6DA1F2AC9EF0096439B /* Assets.xcassets in Resources */,
+				4889C6D81F2AC9EF0096439B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4889C6E11F2AC9EF0096439B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4889C6EC1F2AC9EF0096439B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4889C6CB1F2AC9EF0096439B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4889C6D51F2AC9EF0096439B /* ViewController.swift in Sources */,
+				4889C6D31F2AC9EF0096439B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4889C6DF1F2AC9EF0096439B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4889C6E81F2AC9EF0096439B /* CanIPoopTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4889C6EA1F2AC9EF0096439B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4889C6F31F2AC9EF0096439B /* CanIPoopUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4889C6E51F2AC9EF0096439B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4889C6CE1F2AC9EF0096439B /* CanIPoop */;
+			targetProxy = 4889C6E41F2AC9EF0096439B /* PBXContainerItemProxy */;
+		};
+		4889C6F01F2AC9EF0096439B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4889C6CE1F2AC9EF0096439B /* CanIPoop */;
+			targetProxy = 4889C6EF1F2AC9EF0096439B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4889C6D61F2AC9EF0096439B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4889C6D71F2AC9EF0096439B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4889C6DB1F2AC9EF0096439B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4889C6DC1F2AC9EF0096439B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4889C6F51F2AC9EF0096439B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4889C6F61F2AC9EF0096439B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4889C6F81F2AC9EF0096439B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2UE8KDTEZH;
+				INFOPLIST_FILE = CanIPoop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.EventFarm.CanIPoop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4889C6F91F2AC9EF0096439B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2UE8KDTEZH;
+				INFOPLIST_FILE = CanIPoop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.EventFarm.CanIPoop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		4889C6FB1F2AC9EF0096439B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2UE8KDTEZH;
+				INFOPLIST_FILE = CanIPoopTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.EventFarm.CanIPoopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CanIPoop.app/CanIPoop";
+			};
+			name = Debug;
+		};
+		4889C6FC1F2AC9EF0096439B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2UE8KDTEZH;
+				INFOPLIST_FILE = CanIPoopTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.EventFarm.CanIPoopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CanIPoop.app/CanIPoop";
+			};
+			name = Release;
+		};
+		4889C6FE1F2AC9EF0096439B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 2UE8KDTEZH;
+				INFOPLIST_FILE = CanIPoopUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.EventFarm.CanIPoopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CanIPoop;
+			};
+			name = Debug;
+		};
+		4889C6FF1F2AC9EF0096439B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 2UE8KDTEZH;
+				INFOPLIST_FILE = CanIPoopUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.EventFarm.CanIPoopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CanIPoop;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4889C6CA1F2AC9EF0096439B /* Build configuration list for PBXProject "CanIPoop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4889C6F51F2AC9EF0096439B /* Debug */,
+				4889C6F61F2AC9EF0096439B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4889C6F71F2AC9EF0096439B /* Build configuration list for PBXNativeTarget "CanIPoop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4889C6F81F2AC9EF0096439B /* Debug */,
+				4889C6F91F2AC9EF0096439B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4889C6FA1F2AC9EF0096439B /* Build configuration list for PBXNativeTarget "CanIPoopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4889C6FB1F2AC9EF0096439B /* Debug */,
+				4889C6FC1F2AC9EF0096439B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4889C6FD1F2AC9EF0096439B /* Build configuration list for PBXNativeTarget "CanIPoopUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4889C6FE1F2AC9EF0096439B /* Debug */,
+				4889C6FF1F2AC9EF0096439B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4889C6C71F2AC9EF0096439B /* Project object */;
+}
